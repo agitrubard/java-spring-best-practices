@@ -72,7 +72,7 @@ mvn spring-boot:run
 To ask something, make a `GET` request to `/something/ask`. This endpoint will use the SomeService to respond with a friendly message.
 
 #### Example Request
-```json
+```bash
 curl -X GET http://localhost:8080/something/ask
 ```
 
