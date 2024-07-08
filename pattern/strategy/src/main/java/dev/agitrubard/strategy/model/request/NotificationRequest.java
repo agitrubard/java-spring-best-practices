@@ -22,9 +22,9 @@ public class NotificationRequest {
 
     @Override
     public String toString() {
-        return "{\n" +
-                "\"to\": \"" + to + "\",\n" +
-                "\"type\": \"" + type + "\"\n" +
+        return "{" +
+                "\"to\": \"" + to + "\"," +
+                "\"type\": \"" + type + "\"" +
                 '}';
     }
 
