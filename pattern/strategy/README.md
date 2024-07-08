@@ -20,31 +20,30 @@ This module is designed to demonstrate best practices for implementing the **Str
 ```plaintext
 src/
 ├── main/
-│   ├── java/
-│   │   └── dev/
-│   │       └── agitrubard/
-│   │           └── strategy/
-│   │               ├── controller/
-│   │               │   └── NotificationController.java
-│   │               ├── model/
-│   │               │   ├── enums/
-│   │               │   │   └── NotificationType.java
-│   │               │   └── request/
-│   │               │       └── NotificationRequest.java
-│   │               └── service/
-│   │                   ├── NotificationService.java
-│   │                   └── impl/
-│   │                       ├── EmailNotificationServiceImpl.java
-│   │                       ├── PushNotificationServiceImpl.java
-│   │                       └── SmsNotificationServiceImpl.java
-│   └── resources/
-│       └── application.properties
+│   └── java/
+│       └── dev/
+│           └── agitrubard/
+│               └── strategy/
+│                   ├── controller/
+│                   │   └── NotificationController.java
+│                   ├── model/
+│                   │   ├── enums/
+│                   │   │   └── NotificationType.java
+│                   │   └── request/
+│                   │       └── NotificationRequest.java
+│                   └── service/
+│                       ├── NotificationService.java
+│                       └── impl/
+│                           ├── EmailNotificationServiceImpl.java
+│                           ├── PushNotificationServiceImpl.java
+│                           └── SmsNotificationServiceImpl.java
 └── test/
     └── java/
         └── dev/
             └── agitrubard/
                 └── strategy/
-                    └── NotificationControllerTests.java
+                    └── controller/
+                        └── StrategyPatternEndToEndTest.java
 ```
 
 ---
