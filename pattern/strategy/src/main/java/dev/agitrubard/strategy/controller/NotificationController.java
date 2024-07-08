@@ -22,7 +22,7 @@ class NotificationController {
 
     @PostMapping("/send")
     public String sendNotification(@RequestBody NotificationRequest notificationRequest) {
-        NotificationService notificationService = this.findNotificationService(notificationRequest.getType());
+        NotificationService notificationService = this.findNotificationService(notificationRequest.type());
         return notificationService.send(notificationRequest);
     }
 

@@ -15,7 +15,7 @@ class SmsNotificationServiceImpl implements NotificationService {
 
     @Override
     public String send(NotificationRequest notificationRequest) {
-        return "Sms notification sent to " + notificationRequest.getTo();
+        return "Sms notification sent to " + notificationRequest.to();
     }
 
 }

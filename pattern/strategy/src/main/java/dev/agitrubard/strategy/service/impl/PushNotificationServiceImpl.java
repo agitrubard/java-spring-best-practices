@@ -15,7 +15,7 @@ class PushNotificationServiceImpl implements NotificationService {
 
     @Override
     public String send(NotificationRequest notificationRequest) {
-        return "Push notification sent to " + notificationRequest.getTo();
+        return "Push notification sent to " + notificationRequest.to();
     }
 
 }
