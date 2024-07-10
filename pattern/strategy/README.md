@@ -74,6 +74,11 @@ mvn spring-boot:run
 
 ## 📄 Usage
 
+### Supported Notification Types
+- **EMAIL**
+- **SMS**
+- **PUSH**
+
 ### Sending Notifications
 To send a notification, make a `POST` request to `/api/v1/notifications/send` with the following JSON payload:
 ```json
@@ -83,10 +88,11 @@ To send a notification, make a `POST` request to `/api/v1/notifications/send` wi
 }
 ```
 
-### Supported Notification Types
-- **EMAIL**
-- **SMS**
-- **PUSH**
+#### Example Response
+```json
+"Email notification sent to user@example.com"
+```
+
 
 ---
 
