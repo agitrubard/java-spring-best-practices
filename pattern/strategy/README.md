@@ -52,8 +52,8 @@ src/
 
 ### Prerequisites
 - **Java 21**
-- **Maven 3.6.x**
-- **Spring Boot 3.x.x**
+- **Maven 3.9.6**
+- **Spring Boot 3.3.0**
 
 ### Installation
 **1. Clone the repository:**
