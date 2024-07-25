@@ -29,3 +29,8 @@ You are encouraged to contribute to this repository! You can add new best practi
 
 ## 🙌🏼 Acknowledgements
 Thank you to everyone who has contributed to this repository!
+
+## **Support**
+
+<p align="center">
+<a href="https://buymeacoffee.com/n8fyqpyf6md"> <img align="center" src="https://bit.ly/4ekTsq0" width="249"></a>
