@@ -17,7 +17,7 @@ class SomeController {
      */
     private final SomeService someService;
 
-    SomeController(SomeService someService) {
+    public SomeController(SomeService someService) {
         this.someService = someService;
     }
 
