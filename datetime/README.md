@@ -79,7 +79,7 @@ mvn spring-boot:run
 
 ### Creating an Event with Time Logic
 
-To create an event, make a `POST` request to `/events` with the following JSON payload:
+To create an event, make a `POST` request to `/event` with the following JSON payload:
 
 ```json
 {
@@ -110,19 +110,6 @@ public void create(EventCreateRequest createRequest) {
     );
 
     eventRepository.save(eventEntity);
-}
-```
-
-### Example Request (POST /events):
-
-```bash
-POST /events
-Content-Type: application/json
-{
-  "name": "Some Event",
-  "date": "2025-09-23",
-  "time": "20:00",
-  "publishAt": "2024-09-23T00:00:00"
 }
 ```
 
