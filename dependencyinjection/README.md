@@ -97,14 +97,13 @@ friendly message.
 `SomeController` handles the HTTP requests. It uses constructor injection to receive an instance of `SomeService`.
 
 ```java
-
 @RestController
 @RequestMapping("/something")
 class SomeController {
 
     private final SomeService someService;
 
-    SomeController(SomeService someService) {
+  public SomeController(SomeService someService) {
         this.someService = someService;
     }
 
