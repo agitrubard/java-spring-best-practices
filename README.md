@@ -32,7 +32,7 @@ Thank you to everyone who has contributed to this repository!
 
 ## Support
 
-<p align="center">
+<p>
   <a href="https://www.buymeacoffee.com/agitrubard">
     <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000" />
   </a>
