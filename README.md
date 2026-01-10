@@ -30,7 +30,14 @@ You are encouraged to contribute to this repository! You can add new best practi
 ## 🙌🏼 Acknowledgements
 Thank you to everyone who has contributed to this repository!
 
-## **Support**
+## Support
 
 <p align="center">
-<a href="https://buymeacoffee.com/agitrubard"> <img align="center" src="https://bit.ly/4ekTsq0" width="249"></a>
+  <a href="https://www.buymeacoffee.com/agitrubard">
+    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000" />
+  </a>
+    &nbsp;
+  <a href="https://github.com/sponsors/agitrubard">
+    <img src="https://img.shields.io/badge/Support%20on-GitHub-111111?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
